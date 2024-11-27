@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Fontes-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Perfil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!--Perfil-->
+      <div id="profile">
+        <img src="./assets/jl-light.png" alt="Avatar" />
+        <p>João Lucas Lima Alexandre</p>
+      </div>
+
+      <!--Light-Dark Mode Switch-->
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <!--Introdução-->
+      <div id="intro">
+        <p>Olá! Me chamo João Lucas, tenho 18 anos, atualmente estou estudando sobre Desenvolvimento Web, e retornando a programar.</p>
+        <p>Esta página foi criada com o intuito de mostrar meus conhecimentos em HTML, CSS e JavaScript, e para aproveitar, realizar o curso "Discover", ofertado pela plataforma Rocketseat, instruido pelo educador Mayk Brito.</p>
+      </div>
+
+      <!--Links-->
+      <ul>
+        <li><a href="#" target="_blank">Meu Portifólio</a></li>
+      </ul>
+
+      <!--Redes-->
+      <div id="social-links">
+        <a href="https://www.instagram.com/jl.is.here/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jo%C3%A3o-lucas-lima-alexandre-5911a428b/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://github.com/JLProdutor" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+      Feito com amor por João Lucas Lima Alexandre
+    </footer>
+
+    <!--Links dos Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
