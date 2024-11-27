@@ -19,4 +19,11 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Ele foi criado com base em um design feito no Figma e utilizando as tecnologias HTML5, CSS3 e JavaScript para a construção do site. O projeto também utiliza o Git e GitHub para versionamento e hospedagem do código. 
 - A base para o projeto foi o curso Discover da Rocketseat, ministrado pelo Mayk Brito.
 
+## Links
+Projeto
+- https://jlprodutor.github.io/Discover-Project/
+
+Curso Discover - Rocketseat
+- https://app.rocketseat.com.br/journey/discover/contents
+
 Feito por João Lucas Lima Alexandre - 2024
