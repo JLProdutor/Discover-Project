@@ -46,30 +46,30 @@ body * {
 /*Perfil*/
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 #profile img {
-  width: 112px;
+  width: 7rem;
 }
 
 #profile p {
   font-weight: 500;
-  line-height: 24px;
-  margin-top: 8px;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 /*Light-Dark Mode Switch*/
 #switch {
   position: relative;
-  width: 64px;
+  width: 4rem;
 
-  margin: 4px auto;
+  margin: 0.25rem auto;
 }
 
 #switch button {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
@@ -88,23 +88,23 @@ body * {
 }
 
 #switch button:hover{
-  outline: 8px solid var(--highlight-color);
+  outline: 0.5rem solid var(--highlight-color);
 }
 
 #switch span {
   display: block;
-  width: 64px;
-  height: 24px;
-  border: 1px solid var(--stroke-color);
+  width: 4rem;
+  height: 1.5rem;
+  border: 0.0625rem solid var(--stroke-color);
   border-radius: 9999px;
   background: var(--surface-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
 }
 
 /*Introdução*/
 #intro {
-  padding: 24px 24px 0;
+  padding: 1.5rem 1.5rem 0;
 }
 
 /*Links*/
@@ -113,9 +113,9 @@ ul {
 
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 
-  padding: 24px 0;
+  padding: 1.5rem 0;
 }
 
 ul li a {
@@ -123,14 +123,14 @@ ul li a {
   justify-content: center;
   align-items: center;
 
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
 
   background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  border-radius: 8px;
+  border: 0.0625rem solid var(--stroke-color);
+  border-radius: 0.5rem;
 
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
 
   text-decoration: none;
   font-weight: 500;
@@ -139,7 +139,7 @@ ul li a {
 
 ul li a:hover {
   background: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  border: 0.09375rem solid var(--text-color);
 
 }
 
@@ -148,15 +148,15 @@ ul li a:hover {
   display: flex;
   justify-content: center;
 
-  padding: 24px 0;
-  font-size: 24px;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
 }
 
 #social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 1rem;
 
   transition: background 0.2s;
   border-radius: 50%;
@@ -168,13 +168,13 @@ ul li a:hover {
 
 /*Rodapé*/
 footer {
-  padding: 24px 0;
+  padding: 1.5rem 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /*Media Queries*/
-@media (min-width: 700px){
+@media (min-width: 43.75rem){
   :root {
     --bg-url: url(./assets/bg-desktop-blue.jpg);
   }
